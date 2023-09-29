@@ -1,0 +1,25 @@
+body {
+    width: 190vh;
+    margin: auto;
+    background-color: rgb(17, 17, 17);
+}
+
+.container1 {
+    background-color: #1F2937;
+}
+
+.container2 {
+    background-color: white;
+}
+
+.container3 {
+    background-color: #E5E7EB;
+}
+
+.container4 {
+    background-color: white;
+}
+
+footer {
+    background-color: #1F2937;
+}
