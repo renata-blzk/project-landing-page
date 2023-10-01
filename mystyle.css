@@ -1,14 +1,87 @@
 body {
-    width: 190vh;
+    width: 211,5vb;
     margin: auto;
-    background-color: rgb(17, 17, 17);
     display: flex;
     flex-direction: column;
+    font-family: sans-serif;
 }
 
 .container1 {
     background-color: #1F2937;
     color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 170px 100px 170px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+ul, .subtext, button {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.image-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.next-to-image {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.website {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+    margin-bottom: -15px;
+}
+
+.image {
+    border: 2px solid #5d6672;
+    width: 400px;
+    height: 120px;
+    padding: 50px;
+    background-color: #5d6672;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+}
+
+button {
+    background-color: #3882F6;
+    width: 130px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border-style: none;
 }
 
 .container2 {
