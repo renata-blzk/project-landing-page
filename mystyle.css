@@ -86,6 +86,33 @@ button {
 
 .container2 {
     background-color: white;
+    padding: 30px 180px 100px 180px;
+    text-align: center;
+}
+
+.text {
+    width: 160px;
+    font-size: 18px;
+    color: #394555;
+}
+
+.text > p {
+    margin: 0;
+    padding: 0;
+}
+
+.cube {
+    border: solid 4px #3882F6;
+    border-radius: 18px;
+    height: 160px;
+    width: 160px;
+    margin: auto;
+}
+    
+.cubes {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
 }
 
 .container3 {
