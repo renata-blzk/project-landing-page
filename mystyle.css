@@ -86,19 +86,24 @@ button {
 
 .container2 {
     background-color: white;
-    padding: 30px 180px 100px 180px;
+    padding: 30px 180px 120px 180px;
     text-align: center;
 }
 
+.info {
+    margin-bottom: 40px;
+}
+
+
 .text {
-    width: 160px;
+    width: 170px;
     font-size: 18px;
     color: #394555;
+    display: center;
 }
 
 .text > p {
     margin: 0;
-    padding: 0;
 }
 
 .cube {
@@ -107,16 +112,26 @@ button {
     height: 160px;
     width: 160px;
     margin: auto;
+    margin-bottom: 8px;
 }
     
 .cubes {
     display: flex;
     justify-content: center;
-    gap: 65px;
+    gap: 55px;
 }
 
 .container3 {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 260px;
+}
+
+q {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
 }
 
 .container4 {
