@@ -92,6 +92,8 @@ button {
 
 .info {
     margin-bottom: 40px;
+    font-size: 36px;
+    color: #1F2937;
 }
 
 
@@ -132,11 +134,35 @@ q {
     font-style: italic;
     font-size: 36px;
     color: #1F2937;
+    font-weight: lighter;
+}
+
+.sign {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 23px;
+    font-weight: bold;
+    color: #1F2937;
+    padding: 10px 40px;
 }
 
 .container4 {
-    background-color: white;
+    border: solid 4px #3882F6;
+    background-color: #3882F6;
+    border-radius: 18px;
+    margin: 100px 160px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    
 }
+
+p > button {
+    border: 2px solid white;
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 footer {
     background-color: #1F2937;
