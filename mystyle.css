@@ -30,7 +30,7 @@ ul {
     gap: 20px;
 }
 
-ul, .subtext, button {
+ul, .subtext, button, .prdct {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -52,7 +52,7 @@ li {
     width: 450px;
 }
 
-.website {
+.website, .call {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
@@ -149,22 +149,33 @@ q {
 .container4 {
     border: solid 4px #3882F6;
     background-color: #3882F6;
-    border-radius: 18px;
+    border-radius: 10px;
     margin: 100px 160px;
+    color: white;
     display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 110px;
 }
 
-p > button {
+.call {
+    font-size: 24px;
+}
+
+.prdct {
+    margin-bottom: 0;
+}
+
+.btn {
     border: 2px solid white;
-    display: flex;
-    justify-content: flex-end;
 }
-
 
 footer {
     background-color: #1F2937;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 40px 0px;
 }
